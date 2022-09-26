@@ -1,0 +1,19 @@
+
+.form {margin-top: 5px; margin-left:450px;
+    border:2px solid rgb(8, 203, 203); width:15cm;
+height:11cm; background-color:rgb(8, 203, 203);}
+.forms{ margin-top:1cm; margin-left:2cm;}
+.name{width:150px; height:25px;}
+.names{margin-right:105px;}
+.email{margin-top:15px;}
+.phone{margin-top:15px;}
+.dob{margin-top:15px;}
+.gender{margin-top:15px;}
+.address{margin-top: 15px;}
+.btn{margin-top:25px;}
+.contact{width: 230px; height: 25px;}
+.locat{ height:35px; width:410px;}
+.button{height:25px; width: 50px;}
+.button:hover{background-color: coral;}
+.up{margin-left: 670px; margin-top:2cm;}
+.foot{margin-top:2cm;}

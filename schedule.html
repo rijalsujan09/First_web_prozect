@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        table{width: 30cm; height: 15cm;}
+        table ,tr,th, td {border: 1px solid black;}
+        .foot{margin-top: 2cm;}
+        .table{background-color: rgba(24, 8, 106,0.5);}
+        .head{background-color: rgb(107, 51, 3); color: aliceblue;}
+        .level1{background-color: rgb(0, 255, 0);}
+        .level1:hover{background-color: rgb(200, 161, 68); color: aliceblue;}
+        .level2{background-color: rgb(25, 193, 25);}
+        .level2:hover{background-color: rgb(144, 105, 33); color: aliceblue;}
+        .level3{background-color: rgb(44, 117, 44);}
+        .level3:hover{background-color:rgb(118, 63, 9); color: aliceblue;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="backg">
+            <fieldset style="height:60px;">
+                <div class="logo"><h1 class="tlogo">MAH</h1></div>
+            <div style="margin-left:50px;">
+                <h1></h1>
+            </div>
+            <div>
+                <ul class="ula" style="margin-top:20px;">
+                    <li class="lil"><a href="/home.html">Home</a></li>
+                    <li class="lil"><a href="/aboutus.html">About Us</a></li>
+                    <li class="lil"><a href="/contactus.html">Contact Us</a></li>
+                    <li class="lil"><a href="/courses.html">Courses</a></li>
+                    <li class="lil"><a href="/schedule.html">Schedule</a></li>
+                </ul>
+            </div>
+            <div style="margin-right:50px;">
+                 <a class="go" href="/login.html">Sign In</a>
+                 <a class="go" href="/signup.html">Sign Up</a>
+            </div>
+            </fieldset>
+        </div>
+    </header>
+
+<!--Cover image-->
+<div class="coverimg">
+    <img  class="cover" src="/Image/Code Interreact.png" alt="cover">
+</div>
+
+    <section>
+         <div>
+            <table style="margin:50px 155px;">
+                <tr class="table">
+                    <th colspan="9"> Time Table</th>
+                </tr>
+                <tr class="head">
+                    <th>Days<br><hr>Courses</th>
+                    <th>sun</th>
+                    <th>mon</th>
+                    <th>tue</th>
+                    <th>wed</th>
+                    <th>thur</th>
+                    <th>fri</th>
+                    <th>sat</th>
+                    <th>batch</th>
+                </tr>
+                <tr class="level1">
+                    <th>HTML</th>
+                    <td>OFF</td>
+                    <td>10:00am - 12:00pm</td>
+                    <td>10:00am - 12:00pm</td>
+                    <td>10:00am - 12:00pm</td>
+                    <td>10:00am - 12:00pm</td>
+                    <td>10:00am - 12:00pm</td>
+                    <td>OFF</td>
+                    <th rowspan="3">Level 1</th>
+                </tr>
+                <tr class="level1">
+                    <th>CSS</th>
+                    <td>10:00am - 12:00pm</td>
+                    <td>12:00pm - 2:00pm</td>
+                    <td>OFF</td>
+                    <td>12:00pm - 2:00pm</td>
+                    <td>12:00pm - 2:00pm</td>
+                    <td>OFF</td>
+                    <td>10:00am - 12:00pm</td>
+                </tr>
+                <tr class="level1">
+                    <th>Java</th>
+                    <td>OFF</td>
+                    <td>OFF</td>
+                    <td>2:00pm - 4:00pm</td>
+                    <td>2:00pm - 4:00pm</td>
+                    <td>2:00pm - 4:00pm</td>
+                    <td>2:00pm - 4:00pm</td>
+                    <td>2:00pm - 4:00pm</td>
+                </tr>
+                <tr class="level2">
+                    <th>J-Script</th>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>OFF</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>OFF</td>
+                    <th rowspan="3">Level 2</th>
+                </tr>
+                <tr class="level2">
+                    <th>Python</th>
+                    <td>12:00pm - 2:00pm</td>
+                    <td>OFF</td>
+                    <td>12:00pm - 2:00pm</td>
+                    <td>12:00pm - 2:00pm</td>
+                    <td>12:00pm - 2:00pm</td>
+                    <td>12:00pm - 2:00pm</td>
+                    <td>OFF</td>
+                    
+                </tr>
+                <tr class="level2">
+                    <th>SQl</th>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>OFF</td>
+                    
+                </tr>
+                <tr class="level3">
+                    <th>UI/XI</th>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <td>OFF</td>
+                    <td>OFF</td>
+                    <td>1:00pm - 3:00pm</td>
+                    <th rowspan="3">Level 3</th>
+                </tr>
+                <tr class="level3">
+                    <th>SEO</th>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>OFF</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>OFF</td>
+                </tr>
+                <tr class="level3">
+                    <th>Animation</th>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>OFF</td>
+                    <td>8:00am - 10:00am</td>
+                    <td>OFF</td>
+                </tr>
+            </table>
+         </div>
+    </section>
+
+
+    <fieldset class="foot" ><footer>
+            <div class="foot1">
+                <address class="addey">
+                    <h3>Usefull links</h3>
+                <ul class="footli"><br>
+                    <li><a href="/contactus.html">Contact Us</a></li><br>
+                    <li><a href="/courses.html">Courses</a></li><br>
+                    <li><a href="/schedule.html">Schedule</a></li><br>
+                </ul>
+                </address>
+            </div>
+            <div class="foot2">
+                <address class="addey">
+                    <h3>Contact Us</h3><br>
+                    <h4>Address:</h4>
+                    <p>7134 Rolling bend rd <br>Winsdormill  MD, 212344</p><br>
+                    <p>Email:<a href="mailto:rijalsujan09@gmail.com">rijalsujan09@gmail.com</a></p><br>
+                    <p>phone:<a href="tel:+14437806760">+1 443 780 6760</a></p><br>
+                </address>
+            </div>
+            <div class="foot3">
+                <address class="addey">
+                    <h3>Follow Us</h3><br>
+                <ul class="footli">
+                    <li>Facebook</li><br>
+                    <li>Instagram</li><br>
+                    <li>Twiter</li><br>
+                    <li>Youtube</li>
+                </ul>
+                </address>
+            </div>
+    </footer></fieldset>
+    <fieldset class="tmt">
+        <a class="lmd">copyright @rijalsujan09</a>
+        <a class="lnd"> Terms and Condition</a>
+        <a class="lmt" href="mailto:rijalsujan09@gmail.com">@email</a>
+    </fieldset>
+</body>
+</html>

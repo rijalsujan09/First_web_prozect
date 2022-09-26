@@ -1,0 +1,16 @@
+
+.form{border: 2px solid rgb(14, 144, 176); width: 400px; height:400px; background-color:rgb(14, 144, 176);
+margin-left:530px; margin-top:3cm;} 
+
+.frmo{margin-left:50px; margin-top:50px; 
+width: 300px; height: 300px;}
+
+.username{ margin-left:50px; margin-top:40px;}
+.password{ margin-left:50px; margin-top:20px;}
+.signin{margin-top: 50px; margin-left:50px;}
+.forgot{margin-top:10px; margin-left:144px;}
+.sign{ border: 2px solid blue; width:200px; height:35px;
+    background-color: blue; color: aliceblue;
+text-align: center; margin-top: 5px;}
+.sign:hover{border: 2px solid burlywood; background-color: burlywood; color: blue;}
+.use{ width: 200px; height: 30px;}
